@@ -35,7 +35,6 @@ export default function ({ children }) {
         <meta name="theme-color" content="#fafafa" media="(prefers-color-scheme: light)" />
         <meta name="theme-color" content="#2f2f2f" media="(prefers-color-scheme: dark)" />
         <meta name="robots" content="noindex,nofollow" />
-        <script defer src="https://umami-seven-nu-37.vercel.app/script.js" data-website-id="29896c5f-0d9a-4c1f-a194-f282761e89b1"></script>
       </head>
       <body>
         <Suspense>
