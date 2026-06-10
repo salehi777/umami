@@ -6,6 +6,7 @@ import { getBaseUrl } from '@/lib/get-base-url';
 import { Providers } from './Providers';
 import '@umami/react-zen/styles.full.css';
 import './global.css';
+import Script from 'next/script';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -37,6 +38,11 @@ export default function ({ children }) {
         <meta name="robots" content="noindex,nofollow" />
       </head>
       <body>
+        <Script
+          src="https://umami-seven-nu-37.vercel.app/script.js"
+          data-website-id="29896c5f-0d9a-4c1f-a194-f282761e89b1"
+          strategy="afterInteractive"
+        />
         <Suspense>
           <Providers>{children}</Providers>
         </Suspense>
